@@ -1,0 +1,12 @@
+version: 2.1
+
+setup: true
+
+orbs:
+  git-submodule-changes: butterflynetwork/git-submodule-changes@0.2.1
+
+workflows:
+  generate-config:
+    jobs:
+      - git-submodule-changes/continue-with-changed:
+          config-path: .circleci/continue-config.yml
