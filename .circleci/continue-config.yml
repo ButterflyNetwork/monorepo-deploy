@@ -7,10 +7,10 @@ executors:
 
 parameters:
   project-one:
-    type: boolean
+    type: string
     default: false
   project-two:
-    type: boolean
+    type: string
     default: false
 
 jobs:
