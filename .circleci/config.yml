@@ -3,7 +3,7 @@ version: 2.1
 setup: true
 
 orbs:
-  git-submodule-changes: butterflynetwork/git-submodule-changes@0.2.2
+  git-submodule-changes: butterflynetwork/git-submodule-changes@0.2.3
 
 workflows:
   generate-config:
