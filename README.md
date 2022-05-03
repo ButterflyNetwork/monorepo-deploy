@@ -25,7 +25,7 @@ To update a specific repo, go into the submodule and check out the desired commi
 
 ```bash
 ~/src/monorepo-deploy$ git checkout -b update
-~/src/monorepo-deploy$ cd olympus-storage
+~/src/monorepo-deploy$ cd project-one
 ~/src/monorepo-deploy/project-one$ git checkout develop
 ~/src/monorepo-deploy/project-one$ git pull
 ```
